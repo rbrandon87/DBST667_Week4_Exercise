@@ -3,18 +3,18 @@ install.packages("e1071")
 
 #load the arules and e1071 library into memory
 #need to do this each time you start the new R session
-library("arules", lib.loc="~/R/win-library/3.3")
-library("e1071", lib.loc="~/R/win-library/3.3")
+library("arules")
+library("e1071")
 
 #Read the data into a data frame
-Bank <- read.csv("E:/Datasets/Bank.csv")
+Bank <- read.csv("Bank.csv")
 #remove the unique identifier
 Bank$id<-NULL
 #discretize the age variable
-Bank$age<-discretize(Bank$age, "frequency", categories=6)
+Bank$age<-discretize(Bank$age, "frequency", breaks=6)
 summary(Bank$age)
 #discretize the income variable
-Bank$income<-discretize(Bank$income, "frequency", categories=6)
+Bank$income<-discretize(Bank$income, "frequency", breaks=6)
 summary(Bank$income)
 #convert the number of children to a factor
 Bank$children<-factor(Bank$children)

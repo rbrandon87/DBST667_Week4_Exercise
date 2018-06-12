@@ -1,10 +1,10 @@
 #0. install the package (only once)
 #1. Load the packsge into memory (each time you start the new session)
 install.packages("party")
-library("party", lib.loc="~/R/win-library/3.3")
+library("party")
 
 #2. set the working directory.  Change the folder path to the file location on your PC.
-setwd("E:/Datasets")
+#setwd("E:/Datasets")
 
 #3. Read the cars data
 cars<-read.csv(file="cars.csv", head=TRUE, sep=",")
