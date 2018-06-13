@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<b:Sources xmlns:b="http://schemas.openxmlformats.org/officeDocument/2006/bibliography" xmlns="http://schemas.openxmlformats.org/officeDocument/2006/bibliography" SelectedStyle="">
+<b:Source>
+<b:Year>2015</b:Year>
+<b:BIBTEX_Entry>article</b:BIBTEX_Entry>
+<b:SourceType>JournalArticle</b:SourceType>
+<b:Title>ctree: Conditional Inference Trees</b:Title>
+<b:Tag>hothorn2015ctree</b:Tag>
+<b:Author>
+<b:Author>
+<b:NameList>
+<b:Person>
+<b:Last>Hothorn</b:Last>
+<b:First>Torsten</b:First>
+</b:Person>
+<b:Person>
+<b:Last>Hornik</b:Last>
+<b:First>Kurt</b:First>
+</b:Person>
+<b:Person>
+<b:Last>Zeileis</b:Last>
+<b:First>Achim</b:First>
+</b:Person>
+</b:NameList>
+</b:Author>
+</b:Author>
+<b:JournalName>The Comprehensive R Archive Network</b:JournalName>
+</b:Source>
+</b:Sources>
